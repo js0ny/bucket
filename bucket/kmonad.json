@@ -1,0 +1,29 @@
+{
+    "version": "4e17fc4432dad3664d39274e4e698c7a5497216d",
+    "depends": "stack",
+    "homepage": "https://github.com/kmonad/kmonad",
+    "license": "MIT",
+    "url": "https://github.com/kmonad/kmonad/archive/refs/heads/master.zip",
+    "hash": "bd07fcbbc1be23e0b628fecdeb56487e584e2c834fa5efe0cc4fa02020501c6b",
+    "extract_dir": "kmonad-master",
+    "installer": {
+        "script": [
+            "Write-Output \"Building...\"",
+            "$checkpoint = Get-Location",
+            "cd $dir",
+            "stack build",
+            "stack install",
+            "cd $checkpoint",
+            "Move-Item $env:APPDATA\\local\\bin\\kmonad.exe $dir\\kmonad.exe"
+        ]
+    },
+    "notes": "An advanced keyboard manager",
+    "bin": "kmonad.exe",
+    "checkver": {
+        "url": "https://api.github.com/repos/kmonad/kmonad/commits/master",
+        "jsonpath": "$.sha"
+    },
+    "autoupdate": {
+        "url": "https://github.com/kmonad/kmonad/archive/refs/heads/master.zip"
+    }
+}
