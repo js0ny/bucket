@@ -1,0 +1,15 @@
+{
+    "version": "1.2",
+    "description": "Makes Volume and Media Controls available via command line.",
+    "homepage": "https://github.com/js0ny/CommandLineMedia/",
+    "license": "Ms-PL",
+    "url": "https://github.com/js0ny/CommandLineMedia/releases/download/1.2/CLMControl.exe",
+    "notes": "Makes Volume and Media Controls available via command line.",
+    "installer": {
+        "script": [
+            "if (!(Test-Path \"$dir\")) { New-Item -ItemType Directory -Force -Path \"$dir\" | Out-Null }",
+            "Copy-Item \"$dir\\CLMControl.exe\" \"$dir\\CLMControl.exe\" -Force"
+        ]
+    },
+    "bin": "CLMControl.exe"
+}
