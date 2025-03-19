@@ -41,8 +41,11 @@ scoop install js0ny/<manifest>
 - commandlinemedia-dotnet9
 - renamedit
 - renamedit-git
+- yiji
 
 ### I use
 
+- kmonad-git
 - ltspice
+    - alias:  ltspice24
 - ltspice17-np
