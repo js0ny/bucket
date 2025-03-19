@@ -1,4 +1,4 @@
-# Scoop Bucket Template
+# The `js0ny` Scoop Bucket
 
 <!-- Uncomment the following line after replacing placeholders -->
 [![Tests](https://github.com/js0ny/bucket/actions/workflows/ci.yml/badge.svg)](https://github.com/js0ny/bucket/actions/workflows/ci.yml) [![Excavator](https://github.com/js0ny/bucket/actions/workflows/excavator.yml/badge.svg)](https://github.com/js0ny/bucket/actions/workflows/excavator.yml)
