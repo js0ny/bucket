@@ -1,5 +1,5 @@
 {
-    "version": "HEAD",
+    "version": "1",
     "description": "A Go program for renaming files",
     "homepage": "https://github.com/js0ny/renamedit",
     "license": "MIT",
@@ -7,7 +7,7 @@
         "git",
         "go"
     ],
-    "url": "https://github.com/js0ny/renamedit/archive/refs/heads/master.zip",
+    "url": "https://github.com/js0ny/renamedit.git",
     "extract_dir": "renamedit-master",
     "bin": "renamedit.exe",
     "installer": {
