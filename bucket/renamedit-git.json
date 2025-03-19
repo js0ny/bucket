@@ -1,5 +1,5 @@
 {
-    "version": "0.0.0",
+    "version": "HEAD",
     "description": "A Go program for renaming files",
     "homepage": "https://github.com/js0ny/renamedit",
     "license": "MIT",
