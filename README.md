@@ -49,3 +49,4 @@ scoop install js0ny/<manifest>
 - ltspice
     - alias:  ltspice24
 - ltspice17-np
+- evil-helix
